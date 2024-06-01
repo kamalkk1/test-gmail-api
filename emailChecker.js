@@ -60,7 +60,7 @@ async function checkEmailsAndSendReplies() {
             userId: "me",
             id: message.threadId,
           });
-  
+  console.log("sdfcs");
           //isolated the email into threads
           const replies = thread.data.messages.slice(1);
   
